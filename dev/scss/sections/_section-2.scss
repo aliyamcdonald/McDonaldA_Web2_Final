@@ -1,0 +1,68 @@
+/* =============
+    Section 2
+============= */
+#section-2{
+    display: grid;
+    background-color: $nude2;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    
+    >div {
+
+        #gallery {
+            padding-top: 10px;
+            ul{  
+               
+                @include md {
+                    display: grid;
+               
+                    grid-template-areas: "runway-1 runway-2 runway-3 .";
+                    grid-template-columns: repeat(3, 1fr);
+    
+                }
+                
+    
+                li{   
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    height:  320px;
+                    width: 221px;
+                    gap: 10px;
+                    margin-bottom: 30px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    
+
+                    @include md {
+                        height: 295px;
+                        width: 197px;
+                    }
+
+                    @include lg {
+                        height: 392px;
+                        width: 261px;
+                    }
+
+                }
+    
+                li#runway1{
+                    grid-area: runway-1;
+                    background-image: url("../img/section-2/runway1.jpg");
+                  
+                }
+    
+                li#runway2{
+                    grid-area: runway-2;
+                    background-image: url("../img/section-2/runway2.jpg");
+                }
+    
+                li#runway3{
+                    grid-area: runway-3;
+                    background-image: url("../img/section-2/runway3.jpg");
+                }
+            }
+        }
+
+    }
+
+}

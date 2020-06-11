@@ -1,0 +1,51 @@
+/* =============
+    Section 3
+============= */
+#section-3{
+    background-color: $nude1;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+
+    @include md {
+        padding: 0;
+    }
+
+    #section-3-container{
+
+        @include md{
+            display: grid;
+            grid-template-columns: 50% auto;
+            grid-template-areas: "section-3-image section-3-content";
+            padding: 50px 0;
+        }
+
+
+    
+        aside{
+            background-image: url('../img/section-3/Yalan_Li.svg');
+            height: 360px;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            @include md{
+                grid-area: section-3-image;
+                height: 353px;
+            }
+            @include lg{
+                height: 438px;
+            }
+         
+
+        }
+      
+        section{
+            margin: 50px 50px;
+            text-align: center;
+
+
+        }
+
+        
+    }
+}

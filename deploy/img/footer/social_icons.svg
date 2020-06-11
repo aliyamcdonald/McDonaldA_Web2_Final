@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="85px" height="22px" viewBox="0 0 85 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-9.000000, -3914.000000)">
+            <g id="Footer" transform="translate(0.000000, 3906.000000)">
+                <g id="Group-2" transform="translate(10.000000, 9.000000)">
+                    <g id="instagram" transform="translate(25.000000, 1.000000)">
+                        <ellipse id="Oval" fill="#735D55" cx="16" cy="4.75" rx="1" ry="1"></ellipse>
+                        <rect id="Rectangle" stroke="#735D55" x="0.5" y="0.5" width="19" height="18" rx="8"></rect>
+                        <ellipse id="Oval" stroke="#735D55" cx="10.5" cy="9.5" rx="4" ry="3.3"></ellipse>
+                    </g>
+                    <g id="facebook" stroke="#735D55" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M10,0 L7.27272727,0 C4.76234205,0 2.72727273,2.12664744 2.72727273,4.75 L2.72727273,7.6 L0,7.6 L0,11.4 L2.72727273,11.4 L2.72727273,19 L6.36363636,19 L6.36363636,11.4 L9.09090909,11.4 L10,7.6 L6.36363636,7.6 L6.36363636,4.75 C6.36363636,4.22532949 6.77065023,3.8 7.27272727,3.8 L10,3.8 L10,0 Z" id="Path"></path>
+                    </g>
+                    <g id="twitter" transform="translate(60.000000, 1.000000)" stroke="#735D55" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M23,0.0108665581 C21.998857,0.726100065 20.8903855,1.27313894 19.7172727,1.6309167 C18.4275577,0.128969054 16.349205,-0.397730934 14.5130852,0.312061868 C12.6769654,1.02185467 11.4736548,2.81715433 11.5,4.80748559 L11.5,5.86634189 C7.76842232,5.96434158 4.23620828,4.16366974 2.09090909,1.06972286 C2.09090909,1.06972286 -2.09090909,10.5994295 7.31818182,14.8348547 C5.165097,16.3151002 2.6002095,17.0573193 0,16.9525673 C9.40909091,22.2468488 20.9090909,16.9525673 20.9090909,4.7757199 C20.9081282,4.48077933 20.8801292,4.18656633 20.8254545,3.89686918 C21.8924487,2.83112298 22.6454105,1.48554927 23,0.0108665581 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

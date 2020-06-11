@@ -1,0 +1,91 @@
+/* =============
+    Section 5
+============= */
+#section-5{
+    display: grid;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+    >div {
+
+        #section-5-title {
+            h1 {
+                text-align: left;
+
+            }
+        }
+
+        #gallery {
+            padding-top: 10px;
+            ul {
+                display: grid;
+                grid-row-gap: 20px;
+
+                @include md {
+                    display: grid;
+               
+                    grid-template-areas: "gallery-1 gallery-2 gallery-3 .";
+                    grid-template-columns: repeat(3, 1fr);
+    
+                }
+
+
+                li {
+                    background-color: $nude2;
+                    margin-left: 140px;
+                    margin-right: 140px;
+                    
+    
+                    @include md {
+                      
+                        
+                        margin-left: 15px;
+                        margin-right: 15px;
+                    
+
+                    }
+
+                    @include lg {
+                      
+                        
+                        margin-left: 70px;
+                        margin-right: 70px;
+                    
+
+                    }
+
+                    div {
+                        height: 300px;
+                        background-size: cover;
+        
+                    }
+
+                    section {
+                        margin-left: 20px;
+             
+                    }
+                }
+
+                #gallery-1 {
+                    div {
+                        background-image: url("../img/section-5/outfit1.jpg");
+
+                    }
+                }
+                #gallery-2 {
+                    div {
+                        background-image: url("../img/section-5/outfit2.jpg");
+                        
+                    }
+                }
+                #gallery-3 {
+                    div {
+                        background-image: url("../img/section-5/outfit3.jpg");
+                        
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,110 @@
+/* =============
+    Section 4
+============= */
+#section-4{
+    background-color: $nude2;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    #section-4-container{
+        
+        @include md{
+            display: grid;
+            grid-template-columns: 40% auto;
+            grid-template-areas: "section-4-image section-4-content";
+            
+        }
+
+        aside {
+            text-align: center;
+            
+            .boxed {
+                border: 20px solid $nude1;
+            }     
+
+            @include md {
+                padding: 10px;
+            }
+
+            @include lg {
+                padding: 0px;
+                padding: 20px;
+                padding-left: 20px;
+            }
+        }
+        
+        section {
+            background-image: url("../img/section-4/runway_sideview.jpg");
+            height: 381px;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            @include md {
+                grid-area: section-4-image;
+                height: 500px;
+                
+            }
+
+            @include lg {
+                height: 560px;
+            }
+        }
+    }
+
+}
+
+// /* =============
+//     Section 4
+// ============= */
+// #section-4{
+//     background-color: $nude2;
+//     // text-align: center;
+//     // padding-top: 20px;
+//     // padding-bottom: 5px;
+
+//     @include xl{
+//         display: grid;
+//         grid-template-columns: auto 1200px auto;
+//         grid-template-areas: ". section-4-container .";
+//     }
+
+//     #section-4-container{
+
+//         @include md{
+//             display: grid;
+//             grid-template-columns: 40% auto;
+//             grid-template-areas: "section-4-image section-4-content";
+//             padding: 50px 0;
+//         }
+
+//         @include xl{
+//             grid-area: section-4-container; 
+//         }
+    
+//         aside{
+//             background-image: url("../img/section-4/runway_sideview.jpg");
+//             height: 360px;
+//             background-position: center;
+//             background-repeat: no-repeat;
+
+//             @include md{
+//                 grid-area: section-4-image;
+//                 height: 353px;
+//             }
+//             @include lg{
+//                 height: 438px;
+//             }
+         
+
+//         }
+      
+//         section{
+//             margin: 60px 60px;
+//             text-align: center;
+
+
+//         }
+
+        
+//     }
+// }

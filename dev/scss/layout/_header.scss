@@ -1,0 +1,79 @@
+/* =============
+    Header
+============= */
+header {
+    background-color: $nude1;
+    background-image: url('../img/header/blancore_header.svg');
+    background-position: 10px 10px;
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
+    
+   
+   @include lg {
+       background-image: none;
+   }
+
+    >div {
+        display: grid;
+        grid-template-areas: "logo burger"
+                            "nav nav";
+        grid-template-columns: 80% auto;
+ 
+        section,
+        nav {
+            padding: 20px;
+        }
+
+        #logo-container {
+            grid-area: logo;
+            
+        }
+        #burger-container {
+            align-items: center;
+            display: flex;
+            grid-area: burger;
+            justify-content: flex-end;
+
+            @include lg {
+                display: none !important;
+                
+            }
+            i {
+                cursor: pointer;
+                color: $nude3;
+            }
+        }
+
+        #nav-container {
+            background-color: $nude1;
+            grid-area: nav;
+            display: none;
+            padding: 20px;
+            
+
+            @include lg {
+                display: block !important;
+                
+            }
+
+            ul {
+                li#nav1 {
+                    display: none;
+                   
+                    @include lg {
+                        display: block;
+                       
+                        
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
